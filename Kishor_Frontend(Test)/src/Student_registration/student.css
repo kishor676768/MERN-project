@@ -1,0 +1,133 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(228, 81%, 51%);
+  margin: 0;
+  padding: 0;
+  
+}
+
+.Complete_Form_onchange {
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+
+.Form1 {
+  flex: 1;
+  background-color: lab(89.92% 3.6 -1.48);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+}
+
+.getData {
+  flex: 1;
+  background-color: hsl(192, 87%, 45%);
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+   max-height: 600px; 
+  overflow-y: auto; 
+}
+
+  
+
+
+
+.Form1 h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+.Complete {
+  margin-bottom: 20px;
+}
+
+.Complete label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.Complete input,
+.Complete textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.Complete input:focus,
+.Complete textarea:focus {
+  border-color: #3b82f6;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+.Complete p {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+
+#button1 {
+  width: 100%;
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#button1:hover {
+  background-color: #2563eb;
+}
+
+.getData {
+  flex: 1;
+  background-color: hsl(192, 87%, 45%);
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.getData h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111827;
+
+}
+
+.data_item {
+  background-color: #f9fafb;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.data_item p {
+  margin: 6px 0;
+  color: #374151;
+}

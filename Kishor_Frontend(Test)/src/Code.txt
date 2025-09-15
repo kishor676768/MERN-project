@@ -1,0 +1,25 @@
+
+    try {
+      const response = await axios.post(
+        `${BaseUrl}/formcontent/formpost`,
+        formValues,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      console.log("Response form API:", response.data);
+      fetchData(); // Refresh the data after submission
+      alert("Form submitted successfully");
+      setFormValues({
+        name: "",
+        phone: "",
+        email: "",
+        address: "",
+      });
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Failed to submit form, Please try again later.");
+    }
